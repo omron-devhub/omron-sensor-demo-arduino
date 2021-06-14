@@ -599,7 +599,7 @@ void loop() {
     state ++;
   }
   state = 0;
-  uint8_t send_buf[40];
+  uint8_t send_buf[60];
   uint8_t b_xor = 0;
   send_buf[0] = 0x5A;
   send_buf[1] = 0xA5;
